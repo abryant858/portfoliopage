@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600" rel="stylesheet">
+    <style>
+        body {
+            background: #222629; 
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size: cover;
+        }
+        .main-title {
+            text-align: center;
+            color: #66fcf1;
+            font-size: 100px;
+        }
+        .main-title span {
+            color: #ffffff;
+        }
+        #home-page p {
+            color: #ffffff;
+            font-size: 25px;
+        }
+        span.blue, .section-heading, #contact-page i{
+            color: #66fcf1
+        }
+        p {
+            text-align: right;  
+        }
+        .card.card-body {
+            background: #222629
+        }
+        #home-page {
+            margin-top: 200px;
+            font-family: 'Oswald', sans-serif;
+        }
+        #about-page a {
+            color: #ffffff;
+            font-size: 18px;
+            text-align: center;
+        }
+        #contact-page p, #contact-page a {
+            text-align: center;
+            color: #ffffff;
+            font-size: 18px;
+        }
+        .card.card-body {
+            margin-top: 100px;
+            border: none; 
+        }
+        hr {
+            height: 20px;
+            border-top: 1px #ffffff solid;
+        }
+        .card-text {
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #222629;">
+        <a class="navbar-brand" href="#"><img src="assets/logo.png" height="30px" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-parent="#myGroup" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home-page" data-toggle="collapse" data-parent="#myGroup" aria-expanded="true" aria-controls="home-page">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-page" data-toggle="collapse" data-parent="#myGroup" aria-expanded="false" aria-controls="about-page">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio-page" data-toggle="collapse" data-parent="#myGroup" aria-expanded="false" aria-controls="portfolio-page">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-page" data-toggle="collapse" data-parent="#myGroup" aria-expanded="false" aria-controls="contact-page">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="myGroup" class="container">
+        <div class="panel">
+            <!--Home-->
+            <div class="collapse in show-panel" id="home-page">
+                <div class="card card-body">
+                    <h1 class="main-title">ARMAND <span>BRYANT</span></h1>
+                    <p>FULL STACK <span class="blue">DEVELOPER</span> IN <span class="blue">TRAINING</span></p>
+                    
+                </div>
+            </div>
+            <!--About-->
+            <div class="collapse in collapse-panel" id="about-page">
+                <div class="card card-body">
+                    <h2 class="section-heading">ABOUT</h2>
+                    <hr>
+                    <a href="https://drive.google.com/file/d/12Yo5DWC5B0U4O7_cQBq8vlcOVsb6Ldfb/view?usp=sharing"> Resume</a>
+                </div>
+            </div>
+            <!--Portfolio-->
+            <div class="collapse in collapse-panel" id="portfolio-page">
+                <div class="card card-body">
+                    <h2 class="section-heading">PORTFOLIO</h2>
+                    <hr>
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-lg-4 col-md-4">
+                            <!--Card Regular-->
+                            <div class="card card-cascade">
+                                <!--Card image-->
+                                <div class="view view-cascade overlay">
+                                    <img src="assets/pugscreenshot.png" class="card-img-top" alt="normal">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                                <!--/.Card image-->
+                                <!--Card content-->
+                                <div class="card-body card-body-cascade text-center">
+                                    <!--Title-->
+                                    <h4 class="card-title"><strong>Pickup Games</strong></h4>
+                                    <h5>Project</h5>
+                                    <p class="card-text">A place to search for and create pickup sports.
+                                    </p>
+                                    <a href="https://abryant858.github.io/pickupgames/">Site</a><br>
+                                    <a href="https://github.com/abryant858/pickupgames">GitHub Code</a>
+                                </div>
+                                <!--/.Card content-->
+                            </div>
+                            <!--/.Card Regular-->
+                        </div>
+                        <!-- Grid column -->        
+                        
+                        <!-- Grid row -->
+                        <!-- Grid column -->
+                        <div class="col-lg-4 col-md-4">
+                            <!--Card Regular-->
+                            <div class="card card-cascade">
+                                <!--Card image-->
+                                <div class="view view-cascade overlay">
+                                    <img src="assets/tsscreenshot.png" class="card-img-top" alt="normal">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                                <!--/.Card image-->
+                                <!--Card content-->
+                                <div class="card-body card-body-cascade text-center">
+                                    <!--Title-->
+                                    <h4 class="card-title"><strong>Train Scheduler</strong></h4>
+                                    <h5>Project</h5>
+                                    <p class="card-text">Allows users to check and add to schedule.
+                                    </p>
+                                    <a href="https://abryant858.github.io/trainscheduler/">Site</a><br>
+                                    <a href="https://github.com/abryant858/trainscheduler">GitHub Code</a>
+                                </div>
+                                <!--/.Card content-->
+                            </div>
+                            <!--/.Card Regular-->
+                            </div>
+                            <!-- Grid column -->        
+                        
+                        <!-- Grid row -->
+                        <!-- Grid column -->
+                        <div class="col-lg-4 col-md-4">
+                            <!--Card Regular-->
+                            <div class="card card-cascade">
+                                <!--Card image-->
+                                <div class="view view-cascade overlay">
+                                    <img src="assets/gamescreenshot.png" class="card-img-top" alt="normal">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                                <!--/.Card image-->
+                                <!--Card content-->
+                                <div class="card-body card-body-cascade text-center">
+                                    <!--Title-->
+                                    <h4 class="card-title"><strong>Game</strong></h4>
+                                    <h5>Project</h5>
+                                    <p class="card-text">Crystal Collectior Game which the player tries to match the random number.
+                                    </p>
+                                    <a href="https://abryant858.github.io/unit-4-game/">Site</a><br>
+                                    <a href="https://github.com/abryant858/unit-4-game">GitHub Code</a>
+                                </div>
+                                <!--/.Card content-->
+                            </div>
+                            <!--/.Card Regular-->
+                        </div>
+                        <!-- Grid column -->        
+                    </div>
+                    <!-- Grid row -->   
+                </div>
+            </div>
+            <!--Contact-->
+            <div class="collapse in collapse-panel" id="contact-page">
+                <div class="card card-body">
+                    <h2 class="section-heading">CONTACT</h2>
+                    <hr>
+                    <p><i class="far fa-envelope fa-lg"></i> armandbryant@gmail.com</p>
+                    <br>    
+                    <p><i class="fas fa-phone fa-lg"></i> 336/549-6253</p>
+                    <br>
+                    <a href="http://linkedin.com/in/armand-bryant-14794016"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
+                    <br>    
+                    <a href="https://github.com/abryant858"><i class="fab fa-github fa-2x"></i> GitHub Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+<script>
+$(".nav-item").click(function(e) {
+  that = $(this)
+  accordian = that.siblings('.collapse')
+  $(".collapse").not(accordian).collapse('hide')
+  accordian.collapse('toggle')
+})
+
+// Kludge for allowing all accordians to be collapsed to start
+$(".collapse-panel").collapse('hide')
+$(".show-panel").collapse('show')
+
+</script>            
+</body>
+</html>
